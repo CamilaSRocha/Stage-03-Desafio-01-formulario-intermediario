@@ -160,3 +160,38 @@ h2 {
 .col-3 > div:nth-child(1) {
     margin-right: 22px;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #535971;
+
+    height: 160px;
+
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 366px;
+}
+
+footer .button {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    
+    width: 608px;
+    height: 55px;
+
+    border-radius: 20px;
+    border: none;
+
+    background: #FF5374;
+}
+
+footer .button:hover {
+    background: #C93451;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
